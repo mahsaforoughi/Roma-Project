@@ -1,0 +1,167 @@
+@font-face{
+    src: url('https://fonts.googleapis.com/css?family=Mr+Dafoe|Roboto&display=swap');
+    src: url("/font/Santio\ Black.ttf");
+    src: url("/font/Santio\ Bold.ttf");
+    src: url("/font/Santio\ Boldline.ttf");
+    src: url("/font/Santio\ Inline.ttf");
+    src: url("/font/Santio\ light.ttf");
+    src: url("/font/Santio\ regular.ttf");
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Mr Dafoe', cursive;
+}
+.page1{
+    background-image: url("/img/cleo-topper.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 1000px;
+}
+.page1 ul{
+    text-align: right;
+    margin-right: 5%;
+   padding-top: 2%;
+   list-style-type: none;
+}
+.page1 ul li{
+    display: inline;
+    padding: 5px;
+}
+.page1 ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    border-bottom: 1px solid #e7bc0e;
+}
+.page1 article ul li>img{
+    width: 20px;    
+}
+.page1 h1{
+    color: #fff;
+    font-size: 5em;
+    margin-left: 10%;
+    font-family: 'Roboto', sans-serif;
+}
+.page1 p:nth-of-type(1){
+    color: #e7bc0e;
+    font-size: 3em;
+    font-family: 'Mr Dafoe', cursive ;
+    margin-left: 10%;
+}
+.page1 p:nth-of-type(2){
+    
+    color: #6bc1a3;
+    font-family: 'Roboto', sans-serif;
+    font-family: sanito ,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 15%;
+    margin-top: 30%;
+    font-size: 2em;
+    margin-bottom: 20%;
+}
+.page1 p:nth-of-type(2) span{
+
+    background-color: #000;
+    color: #fff;
+}
+.page1 p:nth-of-type(3) span{
+
+    background-color: #000;
+    color: #fff;
+}
+.page1 p:nth-of-type(4) span{
+
+    background-color: #000;
+    color: #fff;
+}
+.page1 p:nth-of-type(5) span{
+
+    background-color: #000;
+    color: #fff;
+}
+.page1 p:nth-of-type(6) span{
+
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+
+.imgcenter{
+    width: 10%;
+    margin-left: 35%;
+    margin-top: 15%;
+}
+
+
+.page1 article h2{
+    font-size: 7em;
+    font-family: sanito ,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 35%;
+    margin-bottom: 0;
+}
+.page1 article p:nth-of-type(3),p:nth-of-type(4),p:nth-of-type(5){
+    margin-left: 35%;
+    margin-bottom: 0;
+    font-size: 2em;
+    font-family: sanito ,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.page1 article h2:nth-of-type(1),p:nth-of-type(3){
+    color: #e7bc0e;
+}
+.page1 article h2:nth-of-type(2),p:nth-of-type(4){
+    color: #cb91b6 ;
+}
+.page1 article h2:nth-of-type(3),p:nth-of-type(5){
+    color: #6bc1a3;
+}
+
+.page1 article p:nth-of-type(6){
+    color: #7eb8e1;
+    font-family: 'Roboto', sans-serif;
+    font-family: sanito ,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 40%;
+    margin-top: 30%;
+    font-size: 2em;
+    padding-bottom: 100px;
+}
+
+
+
+.page2 {
+    background-image: url("/img/see.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.page2 img{
+    width: 100%;
+    height: 1000px;
+    margin-bottom: 0;
+}
+
+.page3{
+    background-color: #000;
+    height: 1000px;
+}
+.page3 h3{
+    font-size: 5em;
+    color: #fff;
+    margin-top: 0;
+    padding-top: 10%;
+    margin-left: 10%;
+}
+.page3 button{
+    border: 1px solid #fff;
+    background-color: #000;
+    margin-left: 10%;
+    color: #fff;
+    width: 10%;
+    height: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    
+}
